@@ -405,6 +405,7 @@ h3.my-proession{
     font-size: 16px;
     color: var(--text-black-900);
     text-transform: capitalize;
+ 
    }
    .about .about-content .skills .skill-item .progress{
     background-color: var(--bg-black-50);
@@ -570,6 +571,7 @@ service -->
     color: var(--text-black-900);
     font-weight: 700;
     text-transform: capitalize;
+    
 }
 
 .service .service-item .service-item-inner p {
@@ -771,4 +773,20 @@ service -->
     max-width: 100%;
     height: auto;
   }
-    
+  .service {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.education , .experience ,.service-item{
+    background: #fff;
+    border: 1px solid #ddd;
+  
+    padding: 20px;
+      
+    text-align: center;
+    transition: transform 0.2s;
+}
+ 
